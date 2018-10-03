@@ -79,9 +79,11 @@
     <Compile Include="ContentSearch\SolrProvider\SolrDocumentBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.257284.config" />
+    <Content Include="App_Config\Include\zzz\Sitecore.Support.257284.Solr.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_Config\Include\zzz\Sitecore.Support.257284.Lucene.config.disabled" />
+    <None Include="App_Config\Include\zzz\Sitecore.Support.257284.Azure.config.disabled" />
     <None Include="packages.config" />
     <None Include="web.config" />
   </ItemGroup>

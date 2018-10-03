@@ -10,6 +10,7 @@
     /// <inheritdoc/>
     public override void AddItemFields()
     {
+      this.Indexable.LoadAllFields();
       base.AddItemFields();
     }
   }
